@@ -103,7 +103,7 @@ export default class GameScene extends Phaser.Scene {
         this.physics.add.collider(this.player, this.enemy4, this.enemyCollision, null, this);
         this.physics.add.collider(this.player, this.enemy5, this.enemyCollision, null, this);
         //Score 
-        this.scoreText=this.add.text(20,15, 'Score:',{fontSize:'35px', fill:'	#FF0000'});
+        this.scoreText=this.add.text(20,15, 'Score: ',{fontFamily: 'Lucida Console', fontSize:'27px', fill:'	#3ECCCC'});
         this.scoreText.setScrollFactor(0);
     }
     update()
